@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pixel Art Maker x Ethan Kenneth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Your Pixel Art Maker</h1>
+
+    <h2>Choose Your Grid Size</h2>
+
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="5">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="5">
+        <input type="submit">
+    </form>
+
+    <h2>Pick Your Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Your Design Canvas</h2>
+
+    <div class="canvas">
+      <table id="pixelCanvas"></table>
+    </div>
+
+    <p>Click to color, double click to erase, click and drag to paint multiple pixels</p>
+
+    <p><button class="pngSave">Save as PNG</button>
+    <button class="jpgSave">Save as JPG</button></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="designs.js"></script>
+
+</body>
+</html>

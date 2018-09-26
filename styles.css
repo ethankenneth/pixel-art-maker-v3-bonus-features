@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: Times, serif;
+    background-color: #cccccc;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
